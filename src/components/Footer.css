@@ -1,0 +1,95 @@
+.footer {
+  background: var(--text-dark);
+  color: #9CA3AF;
+  padding-top: 4rem;
+}
+
+.footer__inner {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1.2fr;
+  gap: 3rem;
+  padding-bottom: 3rem;
+}
+
+.footer__brand-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: var(--primary);
+  color: var(--white);
+}
+
+.footer__brand-text {
+  margin-left: 0.6rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--white);
+  vertical-align: top;
+}
+
+.footer__brand-text em {
+  font-style: normal;
+  color: #6EE7B7;
+}
+
+.footer__tagline {
+  margin-top: 1rem;
+  max-width: 340px;
+  font-size: 0.9375rem;
+  line-height: 1.7;
+  color: #9CA3AF;
+}
+
+.footer__nav-title {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #D1D5DB;
+  margin-bottom: 1.1rem;
+}
+
+.footer__nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.footer__nav a {
+  color: #9CA3AF;
+  text-decoration: none;
+  font-size: 0.9375rem;
+  transition: color 0.2s ease-in-out;
+  width: fit-content;
+}
+
+.footer__nav a:hover {
+  color: #6EE7B7;
+}
+
+.footer__contact p {
+  font-size: 0.9375rem;
+  line-height: 1.7;
+  margin-bottom: 0.4rem;
+}
+
+.footer__bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-block: 1.5rem;
+}
+
+.footer__bottom p {
+  font-size: 0.875rem;
+  text-align: center;
+  color: #6B7280;
+}
+
+@media (max-width: 800px) {
+  .footer__inner {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+}
