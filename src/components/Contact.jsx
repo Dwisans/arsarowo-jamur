@@ -1,39 +1,45 @@
-import { MapPin, Phone, Calendar, MessageCircle, ExternalLink } from 'lucide-react';
-import Reveal from './Reveal';
-import './Contact.css';
+import {
+  MapPin,
+  Phone,
+  Calendar,
+  MessageCircle,
+  ExternalLink,
+} from "lucide-react";
+import Reveal from "./Reveal";
+import "./Contact.css";
 
 const PARTNERSHIPS = [
-  'Suplai harian untuk restoran, warung & katering',
-  'Reseller & distributor area Semarang',
-  'Kolaborasi UMKM & Desa Wisata Bejalen',
+  "Suplai harian untuk restoran, warung & katering",
+  "Reseller & distributor area Semarang",
+  "Kolaborasi UMKM & Desa Wisata Bejalen",
 ];
 
 const STEPS = [
-  'Hubungi kami via WhatsApp',
-  'Diskusikan kebutuhan & volume pasokan',
-  'Susun jadwal panen bersama',
+  "Hubungi kami via WhatsApp",
+  "Diskusikan kebutuhan & volume pasokan",
+  "Susun jadwal panen bersama",
 ];
 
 const CONTACTS = [
   {
     icon: MapPin,
-    label: 'Lokasi',
-    text: 'Desa Wisata Bejalen, Kec. Ambarawa, Kab. Semarang',
+    label: "Lokasi",
+    text: "Desa Wisata Bejalen, Kec. Ambarawa, Kab. Semarang",
   },
   {
     icon: Phone,
-    label: 'WhatsApp',
-    text: '0812-3456-7890',
+    label: "WhatsApp",
+    text: "0857-1379-6309",
   },
   {
     icon: Calendar,
-    label: 'Jam operasional',
-    text: '05.00 – 17.00 WIB (sesuai panen)',
+    label: "Jam operasional",
+    text: "05.00 – 17.00 WIB (sesuai panen)",
   },
 ];
 
 const WA_LINK =
-  'https://wa.me/6281234567890?text=Halo%20Arsarowo%20Jamur%2C%20saya%20ingin%20membahas%20kerja%20sama%20pasokan%20jamur%20tiram%20segar';
+  "https://wa.me/6281234567890?text=Halo%20Arsarowo%20Jamur%2C%20saya%20ingin%20membahas%20kerja%20sama%20pasokan%20jamur%20tiram%20segar";
 
 export default function Contact() {
   return (
@@ -51,8 +57,9 @@ export default function Contact() {
                 Jadikan kami <em>mitra pasokan</em> jamur segar Anda.
               </h2>
               <p className="contact__sub">
-                Stok harian kami terbatas demi kesegaran panen. Kami membuka ruang
-                kerja sama — dari suplai harian hingga kemitraan jangka panjang.
+                Stok harian kami terbatas demi kesegaran panen. Kami membuka
+                ruang kerja sama — dari suplai harian hingga kemitraan jangka
+                panjang.
               </p>
 
               <ul className="contact__list">
@@ -70,7 +77,9 @@ export default function Contact() {
                   return (
                     <div key={contact.label} className="contact__spec-row">
                       <Icon size={16} strokeWidth={2} aria-hidden="true" />
-                      <span className="contact__spec-label">{contact.label}</span>
+                      <span className="contact__spec-label">
+                        {contact.label}
+                      </span>
                       <span className="contact__spec-text">{contact.text}</span>
                     </div>
                   );
@@ -83,7 +92,7 @@ export default function Contact() {
               <ol className="contact__side-steps">
                 {STEPS.map((step, i) => (
                   <li key={step}>
-                    <span>{String(i + 1).padStart(2, '0')}</span>
+                    <span>{String(i + 1).padStart(2, "0")}</span>
                     {step}
                   </li>
                 ))}
@@ -99,8 +108,8 @@ export default function Contact() {
                 Buka Diskusi Kerja Sama
               </a>
               <p className="contact__side-note">
-                Balasan cepat mulai pukul 05.00 WIB. Kunjungan lapangan untuk calon
-                mitra dapat dijadwalkan.
+                Balasan cepat mulai pukul 05.00 WIB. Kunjungan lapangan untuk
+                calon mitra dapat dijadwalkan.
               </p>
 
               <div className="contact__map">
@@ -119,7 +128,11 @@ export default function Contact() {
                     className="contact__map-open"
                   >
                     Buka di Maps
-                    <ExternalLink size={15} strokeWidth={2} aria-hidden="true" />
+                    <ExternalLink
+                      size={15}
+                      strokeWidth={2}
+                      aria-hidden="true"
+                    />
                   </a>
                 </div>
 

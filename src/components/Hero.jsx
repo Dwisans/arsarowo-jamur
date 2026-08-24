@@ -1,21 +1,28 @@
-import { Handshake, ArrowDown, MapPin, Leaf, Clock, ShieldCheck } from 'lucide-react';
-import Reveal from './Reveal';
-import './Hero.css';
+import {
+  Handshake,
+  ArrowDown,
+  MapPin,
+  Leaf,
+  Clock,
+  ShieldCheck,
+} from "lucide-react";
+import Reveal from "./Reveal";
+import "./Hero.css";
 
 const STATS = [
-  { value: '2021', label: 'Sejak budidaya' },
-  { value: '2x', label: 'Panen / hari' },
-  { value: '40', label: 'Hari siklus' },
-  { value: '100%', label: 'Eco enzyme' },
+  { value: "2021", label: "Sejak budidaya" },
+  { value: "2x", label: "Panen / hari" },
+  { value: "40", label: "Hari siklus" },
+  { value: "100%", label: "Eco enzyme" },
 ];
 
 const MARQUEE = [
-  'Jamur Tiram Segar',
-  'Eco Enzyme',
-  'Panen 2x Sehari',
-  'Zero Waste',
-  'Desa Wisata Bejalen',
-  'Dari Ambarawa',
+  "Jamur Tiram Segar",
+  "Eco Enzyme",
+  "Panen 2x Sehari",
+  "Zero Waste",
+  "Desa Wisata Bejalen",
+  "Dari Ambarawa",
 ];
 
 export default function Hero() {
@@ -42,9 +49,9 @@ export default function Hero() {
 
             <Reveal delay={180}>
               <p className="hero__sub">
-                Dibudidayakan dengan <em>eco enzyme</em> di Desa Wisata Bejalen dan
-                dipanen dua kali sehari — agar kesegarannya sampai utuh dari kumbung
-                hingga meja Anda.
+                Dibudidayakan dengan <em>eco enzyme</em> di Desa Wisata Bejalen
+                dan dipanen dua kali sehari — agar kesegarannya sampai utuh dari
+                kumbung hingga meja Anda.
               </p>
             </Reveal>
 
@@ -66,7 +73,7 @@ export default function Hero() {
             <div className="hero__img-wrap">
               <img
                 className="hero__img"
-                src="https://placehold.co/1200x900/F4EFE6/4A7C59?text=Jamur+Tiram+Segar"
+                src="./images/1.png"
                 alt="Jamur tiram segar hasil panen di Ambarawa"
                 width="1200"
                 height="900"
@@ -114,7 +121,11 @@ export default function Hero() {
         </Reveal>
       </div>
 
-      <a href="#tentang" className="hero__scroll" aria-label="Gulir ke bagian tentang">
+      <a
+        href="#tentang"
+        className="hero__scroll"
+        aria-label="Gulir ke bagian tentang"
+      >
         <span className="hero__scroll-text">Gulir</span>
         <span className="hero__scroll-line" aria-hidden="true" />
       </a>
