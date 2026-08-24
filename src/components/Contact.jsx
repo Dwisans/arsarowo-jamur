@@ -24,7 +24,7 @@ const CONTACTS = [
   {
     icon: MapPin,
     label: "Lokasi",
-    text: "Desa Wisata Bejalen, Kec. Ambarawa, Kab. Semarang",
+    text: "Desa Wisata Bejalen, RT. 02/RW. 01, Kec. Ambarawa, Kab. Semarang, Jawa Tengah",
   },
   {
     icon: Phone,
@@ -39,7 +39,7 @@ const CONTACTS = [
 ];
 
 const WA_LINK =
-  "https://wa.me/6281234567890?text=Halo%20Arsarowo%20Jamur%2C%20saya%20ingin%20membahas%20kerja%20sama%20pasokan%20jamur%20tiram%20segar";
+  "https://wa.me/6285713796309?text=Halo%20Arsarowo%20Jamur%2C%20saya%20ingin%20membahas%20kerja%20sama%20pasokan%20jamur%20tiram%20segar";
 
 export default function Contact() {
   return (
@@ -119,10 +119,12 @@ export default function Contact() {
                   </span>
                   <span className="contact__map-bar-text">
                     <small>Kunjungi kami</small>
-                    <strong>Desa Wisata Bejalen, Ambarawa</strong>
+                    <strong>
+                      Arsarowo Jamur,Desa Wisata Bejalen, Ambarawa
+                    </strong>
                   </span>
                   <a
-                    href="https://www.google.com/maps/search/?api=1&query=Desa+Wisata+Bejalen,+Kec.+Ambarawa,+Kab.+Semarang"
+                    href="https://maps.app.goo.gl/ANCyBH19GmiVwTyg8"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="contact__map-open"
@@ -139,7 +141,7 @@ export default function Contact() {
                 <div className="contact__map-frame">
                   <iframe
                     title="Peta lokasi Arsarowo Jamur, Desa Wisata Bejalen, Ambarawa"
-                    src="https://www.google.com/maps?q=Desa+Wisata+Bejalen,+Kec.+Ambarawa,+Kab.+Semarang,+Jawa+Tengah&output=embed"
+                    src="https://www.google.com/maps?q=Arsarowo+Jamur,+Bejalen+Barat,+Kec.+Ambarawa,+Kabupaten+Semarang,+Jawa+Tengah&output=embed"
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
                     allowFullScreen
