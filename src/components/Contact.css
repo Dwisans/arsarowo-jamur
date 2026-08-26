@@ -7,7 +7,11 @@
   display: grid;
   grid-template-columns: 1.08fr 0.92fr;
   gap: clamp(2rem, 4vw, 3.5rem);
-  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+  background: linear-gradient(
+    135deg,
+    var(--primary) 0%,
+    var(--primary-dark) 100%
+  );
   border-radius: 24px;
   padding: clamp(2.4rem, 5vw, 4rem);
   overflow: hidden;
@@ -33,15 +37,6 @@
   color: var(--white);
 }
 
-.contact__eyebrow {
-  font-size: 0.8125rem;
-  font-weight: 700;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.85);
-  margin-bottom: 0.9rem;
-}
-
 .contact__title {
   color: var(--white);
   font-size: clamp(1.85rem, 3.2vw, 2.5rem);
@@ -51,7 +46,7 @@
 
 .contact__title em {
   font-style: normal;
-  color: #FDE68A;
+  color: #fde68a;
 }
 
 .contact__sub {
@@ -80,7 +75,7 @@
 .contact__list-num {
   font-size: 0.8125rem;
   font-weight: 700;
-  color: #FDE68A;
+  color: #fde68a;
 }
 
 .contact__spec {
@@ -100,7 +95,7 @@
 }
 
 .contact__spec-row svg {
-  color: #FDE68A;
+  color: #fde68a;
 }
 
 .contact__spec-label {

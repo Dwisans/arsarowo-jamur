@@ -44,9 +44,7 @@ export default function About() {
         </Reveal>
 
         <div className="about__content">
-          <Reveal>
-            <p className="section-eyebrow">No. 01 — Tentang Kami</p>
-          </Reveal>
+          <Reveal></Reveal>
           <Reveal delay={80}>
             <h2 className="section-title">
               Tentang Arsarowo Jamur — <em>dedikasi</em> untuk kualitas, sejak

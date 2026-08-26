@@ -1,25 +1,25 @@
-import { Package, Thermometer, ShieldCheck, Sparkles } from 'lucide-react';
-import Reveal from './Reveal';
-import './Process.css';
+import { Package, Thermometer, ShieldCheck, Sparkles } from "lucide-react";
+import Reveal from "./Reveal";
+import "./Process.css";
 
 const STEPS = [
   {
     icon: Package,
-    tag: 'Media',
-    title: 'Media tanam (baglog) pilihan',
-    text: 'Dimulai dari baglog bernilai Rp2.500 per buah yang disiapkan khusus untuk pertumbuhan optimal jamur tiram.',
+    tag: "Media",
+    title: "Media tanam (baglog) pilihan",
+    text: "Dimulai dari baglog bernilai Rp2.500 per buah yang disiapkan khusus untuk pertumbuhan optimal jamur tiram.",
   },
   {
     icon: Thermometer,
-    tag: 'Iklim',
-    title: 'Manajemen kumbung ideal',
-    text: 'Kelembapan kumbung dijaga tetap seimbang — tidak terlalu kering yang membuat jamur layu, dan tidak terlalu basah yang menurunkan kualitas.',
+    tag: "Iklim",
+    title: "Manajemen kumbung ideal",
+    text: "Kelembapan kumbung dijaga tetap seimbang — tidak terlalu kering yang membuat jamur layu, dan tidak terlalu basah yang menurunkan kualitas.",
   },
   {
     icon: ShieldCheck,
-    tag: 'Kebersihan',
-    title: 'Pengendalian hama aman',
-    text: 'Kebersihan dijaga ketat untuk mencegah hama rengit, memastikan jamur tetap bersih, sehat, dan bebas ulat.',
+    tag: "Kebersihan",
+    title: "Pengendalian hama aman",
+    text: "Kebersihan dijaga ketat untuk mencegah hama rengit, memastikan jamur tetap bersih, sehat, dan bebas ulat.",
   },
 ];
 
@@ -28,13 +28,12 @@ export default function Process() {
     <section className="section process" id="proses">
       <div className="container">
         <Reveal className="section-head">
-          <p className="section-eyebrow">No. 03 — Proses Budidaya</p>
           <h2 className="section-title">
             Mengintip proses <em>40 hari</em> di dalam kumbung.
           </h2>
           <p className="section-sub">
-            Transparansi adalah komitmen kami — setiap tahap dilalui dengan standar
-            yang ketat.
+            Transparansi adalah komitmen kami — setiap tahap dilalui dengan
+            standar yang ketat.
           </p>
         </Reveal>
 
@@ -49,9 +48,9 @@ export default function Process() {
                 <Sparkles size={18} strokeWidth={2} aria-hidden="true" />
               </span>
               <span>
-                <strong>Siklus penuh.</strong> Dari penyiapan baglog, pemeliharaan
-                kumbung, hingga panen — tiga tahap utama yang menentukan kualitas
-                jamur:
+                <strong>Siklus penuh.</strong> Dari penyiapan baglog,
+                pemeliharaan kumbung, hingga panen — tiga tahap utama yang
+                menentukan kualitas jamur:
               </span>
             </span>
           </p>
@@ -61,13 +60,17 @@ export default function Process() {
           {STEPS.map((step, i) => {
             const Icon = step.icon;
             return (
-              <Reveal key={step.title} delay={i * 150} className="process__step-wrap">
+              <Reveal
+                key={step.title}
+                delay={i * 150}
+                className="process__step-wrap"
+              >
                 <article className="process__step">
                   <span className="process__step-num">
-                    {String(i + 1).padStart(2, '0')}
+                    {String(i + 1).padStart(2, "0")}
                   </span>
                   <span className="process__step-ghost" aria-hidden="true">
-                    {String(i + 1).padStart(2, '0')}
+                    {String(i + 1).padStart(2, "0")}
                   </span>
 
                   <p className="process__step-tag">{step.tag}</p>

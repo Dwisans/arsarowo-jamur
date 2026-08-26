@@ -45,7 +45,6 @@ export default function Gallery() {
     <section className="section gallery" id="galeri">
       <div className="container">
         <Reveal className="section-head">
-          <p className="section-eyebrow">No. 04 — Galeri</p>
           <h2 className="section-title">
             Potret <em>budidaya</em> dari dalam kumbung.
           </h2>

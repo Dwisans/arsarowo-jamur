@@ -52,7 +52,6 @@ export default function Contact() {
             </span>
 
             <div className="contact__intro">
-              <p className="contact__eyebrow">No. 05 — Kerja Sama</p>
               <h2 className="contact__title">
                 Jadikan kami <em>mitra pasokan</em> jamur segar Anda.
               </h2>

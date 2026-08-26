@@ -36,9 +36,11 @@ export default function Navbar() {
           className="nav__brand"
           aria-label="Arsarowo Jamur - ke beranda"
         >
-          <span className="nav__brand-icon">
-            <img src="/images/logo.png" alt="" aria-hidden="true" />
-          </span>
+          <img
+            src="./images/logo.png"
+            alt="Logo Arsarowo Jamur"
+            className="nav__brand-logo"
+          />
           <span className="nav__brand-text">
             Arsarowo <em>Jamur</em>
           </span>

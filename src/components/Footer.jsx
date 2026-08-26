@@ -13,9 +13,11 @@ export default function Footer() {
     <footer className="footer">
       <div className="container footer__inner">
         <div className="footer__brand">
-          <span className="footer__brand-icon">
-            <img src="/images/logo.png" alt="" aria-hidden="true" />
-          </span>
+          <img
+            src="./images/logo.png"
+            alt="Logo Arsarowo Jamur"
+            className="footer__brand-logo"
+          />
           <span className="footer__brand-text">
             Arsarowo <em>Jamur</em>
           </span>
@@ -36,7 +38,10 @@ export default function Footer() {
 
         <div className="footer__contact">
           <p className="footer__nav-title">Kontak</p>
-          <p>Desa Wisata Bejalen, Kec. Ambarawa, Kab. Semarang, Jawa Tengah</p>
+          <p>
+            Desa Wisata Bejalen, RT. 02/RW. 01, Kec. Ambarawa, Kab. Semarang,
+            Jawa Tengah
+          </p>
           <p>0857-1379-6309</p>
           <p>05.00 - 17.00 WIB</p>
         </div>
