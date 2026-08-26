@@ -52,7 +52,7 @@
   position: relative;
   z-index: 1;
   width: 100%;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 3 / 4;
   object-fit: cover;
   border-radius: var(--radius-img);
   box-shadow: var(--shadow-card-hover);

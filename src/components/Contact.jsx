@@ -9,15 +9,15 @@ import Reveal from "./Reveal";
 import "./Contact.css";
 
 const PARTNERSHIPS = [
-  "Suplai harian untuk restoran, warung & katering",
-  "Reseller & distributor area Semarang",
-  "Kolaborasi UMKM & Desa Wisata Bejalen",
+  "Pasokan jamur tiram segar harian untuk restoran, katering & UMKM",
+  "Kemitraan reseller & distributor untuk wilayah Semarang dan sekitarnya",
+  "Kolaborasi strategis dengan Desa Wisata Bejalen & pelaku wisata",
 ];
 
 const STEPS = [
-  "Hubungi kami via WhatsApp",
-  "Diskusikan kebutuhan & volume pasokan",
-  "Susun jadwal panen bersama",
+  "Hubungi kami via WhatsApp untuk diskusi awal",
+  "Tentukan volume pasokan dan jadwal pengiriman",
+  "Mulai kerja sama dengan kontrak yang fleksibel",
 ];
 
 const CONTACTS = [
@@ -53,12 +53,13 @@ export default function Contact() {
 
             <div className="contact__intro">
               <h2 className="contact__title">
-                Jadikan kami <em>mitra pasokan</em> jamur segar Anda.
+                Siap menjadi <em>mitra pasokan</em> jamur tiram segar Anda?
               </h2>
               <p className="contact__sub">
-                Stok harian kami terbatas demi kesegaran panen. Kami membuka
-                ruang kerja sama — dari suplai harian hingga kemitraan jangka
-                panjang.
+                Kami membuka kesempatan kerja sama untuk Anda yang membutuhkan
+                pasokan jamur tiram berkualitas secara rutin. Stok harian kami
+                terbatas karena mengutamakan kesegaran — namun kami siap
+                merencanakan panen khusus untuk memenuhi kebutuhan bisnis Anda.
               </p>
 
               <ul className="contact__list">
@@ -87,7 +88,7 @@ export default function Contact() {
             </div>
 
             <aside className="contact__side">
-              <p className="contact__side-label">Cara bekerja sama</p>
+              <p className="contact__side-label">Langkah Mudah Memulai</p>
               <ol className="contact__side-steps">
                 {STEPS.map((step, i) => (
                   <li key={step}>
@@ -104,11 +105,11 @@ export default function Contact() {
                 className="btn btn-primary btn-lg contact__cta-btn"
               >
                 <MessageCircle size={20} strokeWidth={2} aria-hidden="true" />
-                Buka Diskusi Kerja Sama
+                Hubungi via WhatsApp
               </a>
               <p className="contact__side-note">
-                Balasan cepat mulai pukul 05.00 WIB. Kunjungan lapangan untuk
-                calon mitra dapat dijadwalkan.
+                Respon cepat mulai pukul 05.00 WIB. Kunjungan langsung ke
+                kumbung dapat dijadwalkan untuk calon mitra.
               </p>
 
               <div className="contact__map">

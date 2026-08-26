@@ -6,29 +6,29 @@ const FEATURES = [
   {
     icon: Clock,
     code: "AR-01",
-    status: "Laporan",
+    status: "Standar",
     tag: "Kesegaran terjamin",
-    title: "Dipanen pada waktu terbaik",
-    text: "Kami memanen tepat dua kali sehari, pukul 05.00 dan 15.00 WIB, agar jamur tidak terlalu tua — tekstur sempurna dan kesegaran awet saat diolah.",
-    data: "Jadwal 05.00 & 15.00 WIB",
+    title: "Panen dua kali sehari, setiap hari",
+    text: "Kami memanen jamur tepat pukul 05.00 dan 15.00 WIB. Ritual dua kali sehari ini memastikan setiap helai jamur tiram dalam kondisi prima — tekstur renyah, rasa gurih, dan kesegaran yang bertahan lebih lama di meja Anda.",
+    data: "Pukul 05.00 & 15.00 WIB",
   },
   {
     icon: Leaf,
     code: "AR-02",
-    status: "Laporan",
-    tag: "Sehat & produktif",
-    title: "Nutrisi alami eco enzyme",
-    text: "Air penyiraman dipadukan eco enzyme alami setiap dua hingga tiga hari. Hasilnya jamur tumbuh lebih sehat, produktif, dan aman dikonsumsi.",
-    data: "Interval 2–3 hari",
+    status: "Standar",
+    tag: "Nutrisi alami",
+    title: "Dibudidayakan dengan eco enzyme",
+    text: "Kami menggunakan eco enzyme alami sebagai media nutrisi utama. Tanpa bahan kimia sintetis, jamur tumbuh lebih subur, lebih sehat, dan menghasilkan rasa yang autentik — aman untuk konsumsi langsung.",
+    data: "Nutrisi tiap 2–3 hari",
   },
   {
     icon: Recycle,
     code: "AR-03",
-    status: "Laporan",
-    tag: "Zero waste",
-    title: "Ramah lingkungan, zero waste",
-    text: "Limbah baglog diolah kembali menjadi pupuk kompos subur, sementara jamur reject dimanfaatkan optimal sebagai pakan ikan tambak.",
-    data: "Limbah jadi kompos",
+    status: "Standar",
+    tag: "Berkelanjutan",
+    title: "Praktik zero waste yang nyata",
+    text: "Setiap limbah baglog tidak kami buang. Kamiolah menjadi pupuk kompos yang kembali menyuburkan lahan. Sementara jamur di luar standar pasar dimanfaatkan sebagai pakan ikan tambak — tanpa satu pun limbah terbuang sia-sia.",
+    data: "Limbah 100% terolah",
   },
 ];
 
@@ -40,11 +40,11 @@ export default function Features() {
       <div className="container">
         <Reveal className="section-head">
           <h2 className="section-title">
-            Mengapa memilih jamur <em>Arsarowo?</em>
+            Mengapa mitra memilih <em>Arsarowo Jamur?</em>
           </h2>
           <p className="section-sub">
-            Tiga komitmen yang kami jaga setiap hari agar pasokan Anda selalu
-            segar, sehat, dan ramah lingkungan.
+            Tiga pilar yang kami jaga tanpa kompromi — sehingga pasokan jamur
+            tiram Anda selalu segar, konsisten, dan berkelanjutan.
           </p>
         </Reveal>
 

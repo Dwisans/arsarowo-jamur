@@ -55,7 +55,7 @@ export default function Navbar() {
         </nav>
 
         <a href="#kontak" className="btn btn-primary nav__cta">
-          Kerja Sama Mitra
+          Mitra Kerja Sama
         </a>
 
         <button
@@ -90,7 +90,7 @@ export default function Navbar() {
             className="btn btn-primary btn-lg"
             onClick={() => setOpen(false)}
           >
-            Jalin Kerja Sama
+            Hubungi Kami
           </a>
         </nav>
       </div>

@@ -6,20 +6,20 @@ const STEPS = [
   {
     icon: Package,
     tag: "Media",
-    title: "Media tanam (baglog) pilihan",
-    text: "Dimulai dari baglog bernilai Rp2.500 per buah yang disiapkan khusus untuk pertumbuhan optimal jamur tiram.",
+    title: "Baglog pilihan, siap untuk pertumbuhan",
+    text: "Setiap siklus dimulai dari baglog berkualitas tinggi yang disiapkan secara khusus. Media tanam yang tepat menjadi fondasi jamur tiram dengan tekstur dan rasa terbaik.",
   },
   {
     icon: Thermometer,
     tag: "Iklim",
-    title: "Manajemen kumbung ideal",
-    text: "Kelembapan kumbung dijaga tetap seimbang — tidak terlalu kering yang membuat jamur layu, dan tidak terlalu basah yang menurunkan kualitas.",
+    title: "Kumbung terkontrol, pertumbuhan optimal",
+    text: "Kelembapan dan suhu kumbung kami jaga tetap ideal — tidak terlalu kering agar jamur tidak layu, tidak terlalu lembab agar kualitas tetap terjaga. Setiap detail diperhatikan.",
   },
   {
     icon: ShieldCheck,
     tag: "Kebersihan",
-    title: "Pengendalian hama aman",
-    text: "Kebersihan dijaga ketat untuk mencegah hama rengit, memastikan jamur tetap bersih, sehat, dan bebas ulat.",
+    title: "Hama terkendali, kualitas terjamin",
+    text: "Protokol kebersihan ketat diterapkan di setiap sudut kumbung. Pencegahan hama dilakukan secara preventif — memastikan jamur tiram yang Anda terima bersih, sehat, dan bebas dari kontaminasi.",
   },
 ];
 
@@ -29,11 +29,12 @@ export default function Process() {
       <div className="container">
         <Reveal className="section-head">
           <h2 className="section-title">
-            Mengintip proses <em>40 hari</em> di dalam kumbung.
+            Proses budidaya <em>40 hari</em> yang kami jalani dengan standar
+            ketat.
           </h2>
           <p className="section-sub">
-            Transparansi adalah komitmen kami — setiap tahap dilalui dengan
-            standar yang ketat.
+            Transparansi bukan sekadar janji — kami ajak Anda melihat setiap
+            tahap yang menentukan kualitas jamur tiram yang Anda terima.
           </p>
         </Reveal>
 
@@ -48,9 +49,10 @@ export default function Process() {
                 <Sparkles size={18} strokeWidth={2} aria-hidden="true" />
               </span>
               <span>
-                <strong>Siklus penuh.</strong> Dari penyiapan baglog,
-                pemeliharaan kumbung, hingga panen — tiga tahap utama yang
-                menentukan kualitas jamur:
+                <strong>Siklus penuh.</strong> Dari persiapan media tanam,
+                pemeliharaan kumbung yang intensif, hingga momen panen — tiga
+                tahap krusial yang kami lalui tanpa kompromi untuk menghasilkan
+                jamur tiram kelas premium:
               </span>
             </span>
           </p>

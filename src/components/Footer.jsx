@@ -22,8 +22,9 @@ export default function Footer() {
             Arsarowo <em>Jamur</em>
           </span>
           <p className="footer__tagline">
-            UMKM budidaya jamur tiram segar &amp; alami dengan eco enzyme dari
-            Desa Wisata Bejalen, Ambarawa.
+            Jamur tiram segar premium dari Desa Wisata Bejalen, Ambarawa.
+            Dibudidayakan dengan eco enzyme, dipanen dua kali sehari untuk
+            kualitas terbaik.
           </p>
         </div>
 
@@ -50,8 +51,8 @@ export default function Footer() {
       <div className="footer__bottom">
         <div className="container">
           <p>
-            © {new Date().getFullYear()} Arsarowo Jamur. Ditanam dengan cinta,
-            dipanen dengan ketelitian.
+            © {new Date().getFullYear()} Arsarowo Jamur. Dibudidayakan dengan
+            ketelitian, dipanen untuk kualitas.
           </p>
         </div>
       </div>

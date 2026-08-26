@@ -3,9 +3,9 @@ import Reveal from "./Reveal";
 import "./About.css";
 
 const VALUES = [
-  "Bibit unggul, dirawat dengan konsistensi",
-  "Kearifan lokal & teknik budidaya telaten",
-  "Pangan sehat untuk Semarang & sekitarnya",
+  "Setiap jamur dirawat dengan ketelitian dan konsistensi",
+  "Menggabungkan kearifan lokal dengan standar budidaya modern",
+  "Mendedikasikan kualitas terbaik untuk mitra dan konsumen",
 ];
 
 export default function About() {
@@ -20,8 +20,8 @@ export default function About() {
             <img
               src="./images/2.png"
               alt="Pendiri Arsarowo Jamur, Bapak Hermawan dan Ibu Retno"
-              width="600"
-              height="600"
+              width="336"
+              height="448"
               loading="lazy"
             />
             <div className="about__media-note">
@@ -37,7 +37,7 @@ export default function About() {
               </span>
               <span>
                 <strong>Sejak 2021</strong>
-                <small>Berkarya penuh cinta</small>
+                <small>Berpengalaman & terpercaya</small>
               </span>
             </div>
           </div>
@@ -47,24 +47,26 @@ export default function About() {
           <Reveal></Reveal>
           <Reveal delay={80}>
             <h2 className="section-title">
-              Tentang Arsarowo Jamur — <em>dedikasi</em> untuk kualitas, sejak
-              2021.
+              Tentang Arsarowo Jamur — <em>menghadirkan</em> jamur tiram
+              berkualitas sejak 2021.
             </h2>
           </Reveal>
           <Reveal delay={160}>
             <p className="about__text">
-              Berawal dari tahun 2021, Bapak Hermawan dan Ibu Retno Ari
-              Purwaningsih memulai budidaya jamur tiram di Desa Wisata Bejalen,
-              Kecamatan Ambarawa. Kami percaya kualitas jamur yang baik tidak
-              hanya lahir dari bibit unggul, melainkan dari ketelitian dan
-              konsistensi perawatan.
+              Arsarowo Jamur didirikan oleh Bapak Hermawan dan Ibu Retno Ari
+              Purwaningsih di Desa Wisata Bejalen, Ambarawa — sebuah desa yang
+              dikenal akan keindahan alam dan potensi wisatanya. Sejak 2021,
+              kami berkomitmen menghadirkan jamur tiram segar berkualitas tinggi
+              melalui proses budidaya yang teliti dan konsisten.
             </p>
           </Reveal>
           <Reveal delay={240}>
             <p className="about__text">
-              Melalui perpaduan kearifan lokal dan teknik budidaya yang telaten,
-              Arsarowo Jamur hadir memenuhi kebutuhan pangan sehat bagi
-              masyarakat Semarang dan sekitarnya.
+              Kami tidak sekadar menanam jamur. Setiap baglog kami rawat dengan
+              standar ketat — mulai dari pemilihan bibit unggul, penggunaan eco
+              enzyme sebagai nutrisi alami, hingga pemanenan dua kali sehari
+              untuk menjaga kesegaran optimal. Hasilnya adalah jamur tiram yang
+              aman, bergizi, dan siap memenuhi kebutuhan bisnis Anda.
             </p>
           </Reveal>
           <Reveal delay={320}>

@@ -4,39 +4,27 @@ import "./Gallery.css";
 const IMAGES = [
   {
     src: "./images/kumbung.jpg",
-    alt: "Suasana kumbung budidaya jamur tiram Arsarowo Jamur",
-    label: "Suasana Kumbung",
-    note: "Rak baglog tersusun rapi",
+    alt: "Suasana kumbung budidaya jamur tiram Arsarowo Jamur di Desa Wisata Bejalen, Ambarawa",
   },
   {
     src: "./images/panen.png",
-    alt: "Hasil panen jamur tiram segar di pagi hari",
-    label: "Panen Pagi",
-    note: "Pukul 05.00 WIB",
+    alt: "Hasil panen jamur tiram segar Arsarowo Jamur dipanen dua kali sehari",
   },
   {
     src: "./images/penyiraman.png",
-    alt: "Penyiraman jamur menggunakan eco enzyme",
-    label: "Penyiraman Eco Enzyme",
-    note: "Tiap 2–3 hari",
+    alt: "Proses penyiraman jamur tiram menggunakan eco enzyme alami",
   },
   {
     src: "./images/baglog.jpg",
-    alt: "Baglog media tanam jamur tiram yang baru disusun",
-    label: "Baglog Baru",
-    note: "Media tanam pilihan",
+    alt: "Baglog media tanam jamur tiram berkualitas tinggi siap tanam",
   },
   {
     src: "./images/sortasi-panen.png",
-    alt: "Proses sortasi jamur tiram sebelum dipasarkan",
-    label: "Sortasi Panen",
-    note: "Pilih kualitas terbaik",
+    alt: "Proses sortasi dan grading jamur tiram segar sebelum distribusi",
   },
   {
     src: "./images/jamur.jpg",
-    alt: "Jamur tiram segar siap dikirim ke pelanggan",
-    label: "Siap Kirim",
-    note: "Kesegaran terjamin",
+    alt: "Jamur tiram segar Arsarowo Jamur siap dikirim ke mitra bisnis",
   },
 ];
 
@@ -46,7 +34,7 @@ export default function Gallery() {
       <div className="container">
         <Reveal className="section-head">
           <h2 className="section-title">
-            Potret <em>budidaya</em> dari dalam kumbung.
+            Lihat langsung <em>kualitas</em> budidaya jamur tiram kami.
           </h2>
         </Reveal>
 
@@ -65,10 +53,6 @@ export default function Gallery() {
                   height="450"
                   loading="lazy"
                 />
-                <figcaption className="gallery__cap">
-                  <span>{image.label}</span>
-                  <small>{image.note}</small>
-                </figcaption>
               </figure>
             </Reveal>
           ))}

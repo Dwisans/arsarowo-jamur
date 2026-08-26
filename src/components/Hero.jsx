@@ -10,19 +10,19 @@ import Reveal from "./Reveal";
 import "./Hero.css";
 
 const STATS = [
-  { value: "2021", label: "Sejak budidaya" },
-  { value: "2x", label: "Panen / hari" },
-  { value: "40", label: "Hari siklus" },
-  { value: "100%", label: "Eco enzyme" },
+  { value: "2021", label: "Berpengalaman sejak" },
+  { value: "2x", label: "Panen setiap hari" },
+  { value: "40", label: "Hari siklus panen" },
+  { value: "100%", label: "Eco enzyme murni" },
 ];
 
 const MARQUEE = [
-  "Jamur Tiram Segar",
+  "Jamur Tiram Premium",
   "Eco Enzyme",
   "Panen 2x Sehari",
   "Zero Waste",
   "Desa Wisata Bejalen",
-  "Dari Ambarawa",
+  "Ambarawa, Semarang",
 ];
 
 export default function Hero() {
@@ -37,21 +37,22 @@ export default function Hero() {
             <Reveal>
               <p className="hero__eyebrow">
                 <MapPin size={15} strokeWidth={2} aria-hidden="true" />
-                Desa Wisata Bejalen · Ambarawa
+                Desa Wisata Bejalen · Ambarawa, Semarang
               </p>
             </Reveal>
 
             <Reveal delay={90}>
               <h1 className="hero__title">
-                Jamur Tiram <em>Segar</em> dari Jantung Ambarawa
+                Jamur Tiram <em>Segar</em> Panen Setiap Hari dari Ambarawa
               </h1>
             </Reveal>
 
             <Reveal delay={180}>
               <p className="hero__sub">
-                Dibudidayakan dengan <em>eco enzyme</em> di Desa Wisata Bejalen
-                dan dipanen dua kali sehari — agar kesegarannya sampai utuh dari
-                kumbung hingga meja Anda.
+                Pasokan jamur tiram premium untuk restoran, katering, dan mitra
+                bisnis Anda. Dipanen dua kali sehari dan dibudidayakan dengan{" "}
+                <em>eco enzyme</em> — sehingga kualitasnya terjaga dari kumbung
+                hingga ke tangan Anda.
               </p>
             </Reveal>
 
@@ -59,10 +60,10 @@ export default function Hero() {
               <div className="hero__actions">
                 <a href="#kontak" className="btn btn-primary btn-lg">
                   <Handshake size={19} strokeWidth={2} aria-hidden="true" />
-                  Jalin Kerja Sama
+                  Mulai Kerja Sama
                 </a>
                 <a href="#proses" className="btn btn-secondary btn-lg">
-                  Pelajari Proses Kami
+                  Lihat Proses Budidaya
                   <ArrowDown size={19} strokeWidth={2} aria-hidden="true" />
                 </a>
               </div>
@@ -74,9 +75,9 @@ export default function Hero() {
               <img
                 className="hero__img"
                 src="./images/1.png"
-                alt="Jamur tiram segar hasil panen di Ambarawa"
-                width="1200"
-                height="900"
+                alt="Jamur tiram segar hasil panen Arsarowo Jamur di Ambarawa, Semarang"
+                width="336"
+                height="448"
               />
               <div className="hero__badge hero__badge--harvest">
                 <span className="hero__badge-icon">
@@ -84,7 +85,7 @@ export default function Hero() {
                 </span>
                 <span className="hero__badge-text">
                   <strong>2x sehari</strong>
-                  Panen pukul 05.00 &amp; 15.00
+                  Panen pukul 05.00 &amp; 15.00 WIB
                 </span>
               </div>
               <div className="hero__badge hero__badge--eco">
@@ -93,7 +94,7 @@ export default function Hero() {
                 </span>
                 <span className="hero__badge-text">
                   <strong>100% Eco Enzyme</strong>
-                  Nutrisi alami tiap 2–3 hari
+                  Nutrisi alami tanpa bahan kimia
                 </span>
               </div>
               <div className="hero__badge hero__badge--zero">
@@ -102,7 +103,7 @@ export default function Hero() {
                 </span>
                 <span className="hero__badge-text">
                   <strong>Zero Waste</strong>
-                  Baglog jadi kompos subur
+                  Limbah baglog jadi kompos
                 </span>
               </div>
             </div>

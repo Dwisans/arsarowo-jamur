@@ -55,31 +55,6 @@
   transform: scale(1.06);
 }
 
-.gallery__cap {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 1rem;
-  padding: 1.6rem 1rem 0.9rem;
-  background: linear-gradient(to top, rgba(17, 24, 39, 0.72), transparent);
-  color: var(--white);
-}
-
-.gallery__cap span {
-  font-size: 0.95rem;
-  font-weight: 700;
-}
-
-.gallery__cap small {
-  font-size: 0.8125rem;
-  font-weight: 600;
-  color: rgba(255, 255, 255, 0.8);
-}
-
 @media (max-width: 1024px) {
   .gallery__grid {
     grid-auto-rows: 200px;
