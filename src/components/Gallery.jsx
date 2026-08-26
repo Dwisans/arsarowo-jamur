@@ -52,6 +52,7 @@ export default function Gallery() {
                   width="600"
                   height="450"
                   loading="lazy"
+                  decoding="async"
                 />
               </figure>
             </Reveal>

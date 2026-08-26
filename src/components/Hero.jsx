@@ -78,6 +78,8 @@ export default function Hero() {
                 alt="Jamur tiram segar hasil panen Arsarowo Jamur di Ambarawa, Semarang"
                 width="336"
                 height="448"
+                fetchPriority="high"
+                decoding="async"
               />
               <div className="hero__badge hero__badge--harvest">
                 <span className="hero__badge-icon">

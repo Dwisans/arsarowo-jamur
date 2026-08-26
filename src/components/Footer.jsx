@@ -17,6 +17,8 @@ export default function Footer() {
             src="./images/logo.png"
             alt="Logo Arsarowo Jamur"
             className="footer__brand-logo"
+            width="52"
+            height="52"
           />
           <span className="footer__brand-text">
             Arsarowo <em>Jamur</em>

@@ -94,6 +94,8 @@ section {
 
 .section {
   padding-block: clamp(3.5rem, 7vw, 5.5rem);
+  content-visibility: auto;
+  contain-intrinsic-size: auto 800px;
 }
 
 /* ---------- Section heading ---------- */

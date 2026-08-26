@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 import "./Navbar.css";
 
@@ -22,11 +22,14 @@ export default function Navbar() {
   }, []);
 
   useEffect(() => {
-    document.body.style.overflow = open ? "hidden" : "";
+    if (!open) return;
+    document.body.style.overflow = "hidden";
     return () => {
       document.body.style.overflow = "";
     };
   }, [open]);
+
+  const closeMenu = useCallback(() => setOpen(false), []);
 
   return (
     <header className={`nav ${scrolled ? "nav--scrolled" : ""}`}>
@@ -40,6 +43,8 @@ export default function Navbar() {
             src="./images/logo.png"
             alt="Logo Arsarowo Jamur"
             className="nav__brand-logo"
+            width="52"
+            height="52"
           />
           <span className="nav__brand-text">
             Arsarowo <em>Jamur</em>
@@ -80,7 +85,7 @@ export default function Navbar() {
               key={link.href}
               href={link.href}
               className="nav__mobile-link"
-              onClick={() => setOpen(false)}
+              onClick={closeMenu}
             >
               {link.label}
             </a>
@@ -88,7 +93,7 @@ export default function Navbar() {
           <a
             href="#kontak"
             className="btn btn-primary btn-lg"
-            onClick={() => setOpen(false)}
+            onClick={closeMenu}
           >
             Hubungi Kami
           </a>

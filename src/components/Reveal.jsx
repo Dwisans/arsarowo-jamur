@@ -33,11 +33,16 @@ export default function Reveal({
     return () => observer.disconnect();
   }, []);
 
+  const style = rest.style || {};
+  const mergedStyle = delay
+    ? { ...style, transitionDelay: `${delay}ms` }
+    : style;
+
   return (
     <Tag
       ref={ref}
       className={`reveal ${visible ? 'is-visible' : ''} ${className}`.trim()}
-      style={{ transitionDelay: delay ? `${delay}ms` : undefined }}
+      style={mergedStyle}
       {...rest}
     >
       {children}

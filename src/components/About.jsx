@@ -23,6 +23,7 @@ export default function About() {
               width="336"
               height="448"
               loading="lazy"
+              decoding="async"
             />
             <div className="about__media-note">
               <span className="about__media-note-num">40</span>
